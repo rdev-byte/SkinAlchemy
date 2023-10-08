@@ -2,9 +2,9 @@ import { configureStore } from '@reduxjs/toolkit';
 import { persistStore, persistReducer } from 'redux-persist';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
-import userReducer from './slices/userSlice'; // Correct the path to userSlice
-import appointmentsReducer from './slices/appointmentsSlice'; // Correct the path to appointmentsSlice
-import notificationsReducer from './slices/notificationsSlice'; // Correct the path to notificationsSlice
+// import userReducer from './slices/userSlice';
+// import appointmentsReducer from './slices/appointmentsSlice';
+// import notificationsReducer from './slices/notificationsSlice';
 
 const persistConfig = {
   key: 'root',
